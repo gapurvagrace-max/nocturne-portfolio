@@ -1,1 +1,260 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b090d">
+  <meta name="description" content="The personal portfolio of an independent web developer. Dark design, thoughtful code, and digital experiences.">
+  <title>G. — Digital Afterdark</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+
+  <header class="navbar">
+    <a href="#home" class="logo">G<span>.</span></a>
+
+    <button class="menu-toggle" aria-label="Open navigation"
+      aria-expanded="false" aria-controls="nav-links">
+      <span></span><span></span>
+    </button>
+
+    <nav class="nav-links" id="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#work">Projects</a>
+      <a href="#contact" class="nav-contact">Let's talk ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow">
+          <span class="status-dot"></span>
+          INDEPENDENT WEB DEVELOPER
+        </div>
+
+        <p class="overline">WELCOME TO MY LITTLE CORNER OF THE INTERNET</p>
+
+        <h1>
+          I create<br>
+          digital <em>worlds</em><span class="period">.</span>
+        </h1>
+
+        <p class="hero-description">
+          Thoughtful websites with a little darkness,
+          a little magic, and a whole lot of personality.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">
+            Explore my work <span>↗</span>
+          </a>
+          <a class="text-link" href="#about">A little about me ↓</a>
+        </div>
+
+        <div class="hero-footnote">
+          <span>BASED IN INDIA</span>
+          <span>BUILDING FOR THE WEB</span>
+        </div>
+      </div>
+
+      <div class="hero-art reveal" aria-label="Gothic-inspired decorative artwork">
+        <div class="art-frame">
+          <div class="arch arch-outer"></div>
+          <div class="arch arch-inner"></div>
+          <div class="moon"></div>
+          <div class="star star-one">✳</div>
+          <div class="star star-two">✦</div>
+          <div class="star star-three">✧</div>
+          <div class="art-cross">✝</div>
+          <div class="art-caption">BETWEEN SHADOW & LIGHT</div>
+          <div class="art-index">FIG. 001 — THE BEGINNING</div>
+        </div>
+        <span class="floating-word">ad astra</span>
+      </div>
+
+      <a href="#about" class="scroll-cue">
+        <span></span> SCROLL TO DISCOVER
+      </a>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about section-wrap" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 / THE PERSON BEHIND THE PIXELS</p>
+        <h2>A mind full of ideas.<br><em>A screen full of possibilities.</em></h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p class="dropcap">
+            Hey, I'm G. — a web developer who believes that websites
+            can be more than just pages on a screen.
+          </p>
+          <p>
+            I enjoy turning ideas into digital experiences that feel
+            considered, distinctive, and a little unexpected. I care
+            about the details, the atmosphere, and how everything works
+            together.
+          </p>
+          <p>
+            This is my space to experiment, create, and leave a little
+            piece of my imagination on the internet.
+          </p>
+          <a href="#contact" class="text-link">Have a project in mind? ↗</a>
+        </div>
+
+        <div class="profile-card reveal">
+          <div class="profile-symbol">G.</div>
+          <p class="card-kicker">CURRENTLY INTO</p>
+          <h3>Dark aesthetics.<br>Clean code.<br>New possibilities.</h3>
+          <div class="profile-bottom">
+            <span>CREATIVE MIND</span>
+            <span>✦ &nbsp; OPEN TO PROJECTS</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills reveal">
+        <p class="eyebrow">MY DIGITAL TOOLKIT</p>
+        <div class="skill-list">
+          <span>HTML5</span>
+          <span>CSS3</span>
+          <span>JavaScript</span>
+          <span>Responsive Design</span>
+          <span>Git & GitHub</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="work section-wrap" id="work">
+      <div class="section-heading work-heading reveal">
+        <div>
+          <p class="eyebrow">02 / SELECTED CREATIONS</p>
+          <h2>Made with <em>intention.</em></h2>
+        </div>
+        <p class="heading-note">
+          A collection of experiments, concepts, and things
+          I'm bringing to life.
+        </p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card project-large reveal">
+          <a class="project-visual cafe-visual"
+             href="#contact" aria-label="Ask about the Nocturne Cafe project">
+            <span class="project-number">PROJECT 001</span>
+            <div class="cafe-art">
+              <span class="cafe-small">EST. AFTER DARK</span>
+              <h3>Nocturne</h3>
+              <span class="cafe-line"></span>
+              <p>COFFEE · CONVERSATION · MIDNIGHT</p>
+            </div>
+            <span class="project-arrow">↗</span>
+          </a>
+          <div class="project-info">
+            <div>
+              <h3>Nocturne Café</h3>
+              <p>A fictional café website concept</p>
+            </div>
+            <span class="project-type">WEB DESIGN</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <a class="project-visual archive-visual"
+             href="#contact" aria-label="Ask about the Digital Archive concept">
+            <span class="project-number">PROJECT 002</span>
+            <div class="archive-art">
+              <span class="archive-orbit"></span>
+              <span class="archive-title">THE<br>ARCHIVE</span>
+              <span class="archive-subtitle">A STUDY OF DIGITAL THINGS</span>
+            </div>
+            <span class="project-arrow">↗</span>
+          </a>
+          <div class="project-info">
+            <div>
+              <h3>The Digital Archive</h3>
+              <p>An editorial design experiment</p>
+            </div>
+            <span class="project-type">CONCEPT</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <a class="project-visual portfolio-visual"
+             href="#home" aria-label="Return to the portfolio homepage">
+            <span class="project-number">PROJECT 003</span>
+            <div class="portfolio-art">
+              <span class="portfolio-mini">G. / DIGITAL AFTERDARK</span>
+              <span class="portfolio-big">LESS<br>ORDINARY<span>.</span></span>
+              <span class="portfolio-rule"></span>
+              <span class="portfolio-mini">DESIGN YOUR OWN WORLD</span>
+            </div>
+            <span class="project-arrow">↗</span>
+          </a>
+          <div class="project-info">
+            <div>
+              <h3>Digital Afterdark</h3>
+              <p>My personal portfolio</p>
+            </div>
+            <span class="project-type">PERSONAL</span>
+          </div>
+        </article>
+      </div>
+
+      <p class="project-disclaimer">
+        The projects above are concept designs. Replace them with your
+        real projects and working links as you build your portfolio.
+      </p>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section-wrap" id="contact">
+      <div class="contact-panel reveal">
+        <p class="eyebrow">03 / YOUR TURN</p>
+        <div class="contact-decoration" aria-hidden="true">✳</div>
+
+        <h2>Let's make<br>something <em>memorable.</em></h2>
+
+        <p>
+          Have an idea, a collaboration, or just want to say hello?
+          My inbox is open.
+        </p>
+
+        <!-- Replace this email with your own -->
+        <a class="button button-primary email-link"
+           href="mailto:your-email@example.com">
+          Get in touch <span>↗</span>
+        </a>
+
+        <p class="email-note">
+          Replace the example email with your real email address.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer section-wrap">
+    <a href="#home" class="logo">G<span>.</span></a>
+    <p>MADE WITH INTENTION & A LITTLE OBSESSION.</p>
+    <a href="#home" class="back-top">BACK TO TOP ↑</a>
+    <p class="copyright">© <span id="year"></span> G. ALL RIGHTS RESERVED.</p>
+  </footer>
+</body>
+              </html>
+
